@@ -82,9 +82,19 @@ Jika memilih Yes, data akan dihapus dari list dan tabel.
 Klik tombol "Cancel" untuk mengosongkan semua input form.
 
 # ⭐️ KOMPONEN TAMBAHAN (BONUS)
-<b>- Rating (BONUS)</b>
+<b>- Rating (BONUS)</b><br>
 Program ini menambahkan komponen baru berupa JSlider untuk menilai rating produk (1–5).
 Nilai rating juga ditampilkan di tabel dan disimpan dalam atribut rating di class Product.
 Ini termasuk komponen non–JTextField, sehingga memenuhi kriteria bonus (+20 poin).
 
 # 📸 DOKUMENTASI
+## READ
+
+## ADD
+
+## UPDATE
+
+## DELETE
+
+## CANCEL
+
