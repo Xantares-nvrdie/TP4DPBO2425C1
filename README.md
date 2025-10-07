@@ -1,6 +1,7 @@
 # TP4DPBO2425C1<br>
 TUGAS PRAKTIKUM 4 DPBO SWING GUI
-
+Bintang Fajar Putra Pamungkas (2405073)
+Ilmu Komputer C1 Universitas Pendidikan Indonesia
 <br>
 
 # ☝🏻 JANJI<br>
