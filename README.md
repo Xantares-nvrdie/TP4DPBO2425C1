@@ -10,15 +10,15 @@ Saya Putra Bintang Fajar Putra Pamungkas dengan NIM 2405073 mengerjakan Tugas Pr
 
 # 🛠️ DESIGN PROGRAM<br>
 Program ini dibuat menggunakan Java Swing untuk mengelola data produk. Fitur utama meliputi:<br>
-Create: Menambahkan data produk baru.<br>
-Read: Menampilkan data produk.<br>
-Update: Mengedit data produk yang sudah ada.<br>
-Delete: Menghapus data produk.<br>
+- Create: Menambahkan data produk baru.<br>
+- Read: Menampilkan data produk.<br>
+- Update: Mengedit data produk yang sudah ada.<br>
+- Delete: Menghapus data produk.<br>
 
 <br>
 
 ## CLASS PADA PROGRAM:<br>
-### Class Product<br>
+### 1. Class Product<br>
 Class ini berisi atribut dan method getter/setter. Berikuy atribut-atributnya:<br>
 -  String id
 -  String nama
@@ -28,23 +28,23 @@ Class ini berisi atribut dan method getter/setter. Berikuy atribut-atributnya:<b
 Method:
 - Constructor Product(String id, String nama, double harga, String kategori, int rating)
 - Getter/setter
-
 Getter dan Setter untuk setiap atribut
-### Class ProductMenu extends JFrame<br>
+
+### 2. Class ProductMenu extends JFrame<br>
 Class ini berisi Graphical User Interface (GUI) dari program, berfungsi untuk mengatur GUI, serta method untuk insert, update, dan delete.<br>
 <img width="774" height="635" alt="Screenshot 2025-10-07 at 20 30 33" src="https://github.com/user-attachments/assets/52c05407-07e7-4dcf-8328-362ad20c29f1" />
 
 Class ini mengatur tampilan dan logika aplikasi berbasis GUI.
 Berfungsi untuk menampilkan form, menampung event handler, serta mengatur data produk dalam bentuk tabel.
 
-Komponen Utama GUI:
+<b>Komponen Utama GUI:</b>
 - JTextField → untuk input ID, Nama, dan Harga
 - JComboBox → untuk memilih Kategori
 - JSlider → untuk memberikan Rating (1–5)
 - JTable → untuk menampilkan daftar produk
 - Tombol Add/Update, Delete, dan Cancel
 
-Fungsi utama dalam class ini:
+<b>Fungsi utama dalam class ini:</b>
 - insertData() – Menambahkan produk baru ke dalam list
 - updateData() – Memperbarui data produk yang dipilih
 - deleteData() – Menghapus data produk setelah konfirmasi dialog
@@ -66,7 +66,7 @@ Di bawah form terdapat tabel yang menampilkan daftar semua produk.
 ### 2. Penambahan Data Baru
 User dapat menambahkan data baru dengan mengisi form data produk kemudian klik tombol aksi "Add" untuk menyimpan data kedalam tabel.
 
-### 3. Update Dara
+### 3. Update Data
 Saat salah satu baris tabel diklik, data produk akan muncul kembali di form input.<br>
 Tombol "Add" otomatis berubah menjadi "Update", dan tombol "Delete" akan tampil. Setelah itu user dapat mengisi data yang ingin di update.<br>
 
@@ -80,5 +80,11 @@ Jika memilih Yes, data akan dihapus dari list dan tabel.
 
 ### 5. Cancel/Membersihkan form
 Klik tombol "Cancel" untuk mengosongkan semua input form.
+
+# ⭐️ KOMPONEN TAMBAHAN (BONUS)
+<b>- Rating (BONUS)</b>
+Program ini menambahkan komponen baru berupa JSlider untuk menilai rating produk (1–5).
+Nilai rating juga ditampilkan di tabel dan disimpan dalam atribut rating di class Product.
+Ini termasuk komponen non–JTextField, sehingga memenuhi kriteria bonus (+20 poin).
 
 # 📸 DOKUMENTASI
