@@ -89,12 +89,12 @@ Ini termasuk komponen non–JTextField, sehingga memenuhi kriteria bonus (+20 po
 
 # 📸 DOKUMENTASI
 ## READ
+<img width="933" height="784" alt="Screenshot 2025-10-07 at 21 08 31" src="https://github.com/user-attachments/assets/388db407-354f-42ff-a5d2-b66160faff1f" />
 
 ## ADD
-
+![Demo Aplikasi ProductMenu](assets/Add.gif)
 ## UPDATE
-
+![Demo Aplikasi ProductMenu](assets/Update.gif)
 ## DELETE
-
-## CANCEL
+![Demo Aplikasi ProductMenu](assets/Delete.gif)
 
